@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F0A74252380D13B00CBC134 /* StoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A74242380D13B00CBC134 /* StoryButton.swift */; };
+		6F0A74272380D16500CBC134 /* StoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A74262380D16500CBC134 /* StoryImage.swift */; };
+		6F0A74292380D18B00CBC134 /* StoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0A74282380D18B00CBC134 /* StoryItem.swift */; };
+		6F4B281823806A92005C6D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B281723806A92005C6D6B /* AppDelegate.swift */; };
+		6F4B281A23806A92005C6D6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B281923806A92005C6D6B /* SceneDelegate.swift */; };
+		6F4B281D23806A92005C6D6B /* FaceBookKIT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B281B23806A92005C6D6B /* FaceBookKIT.xcdatamodeld */; };
+		6F4B281F23806A92005C6D6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F4B281E23806A92005C6D6B /* ContentView.swift */; };
+		6F4B282123806A98005C6D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4B282023806A98005C6D6B /* Assets.xcassets */; };
+		6F4B282423806A98005C6D6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F4B282323806A98005C6D6B /* Preview Assets.xcassets */; };
+		6F4B282723806A98005C6D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F4B282523806A98005C6D6B /* LaunchScreen.storyboard */; };
+		6F9128682385D58100BC348E /* ListRowSeparator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9128672385D58100BC348E /* ListRowSeparator.swift */; };
+		6F91286A2385D73A00BC348E /* StoriesTray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9128692385D73A00BC348E /* StoriesTray.swift */; };
+		6F91286D2385DAE500BC348E /* UserStatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91286C2385DAE500BC348E /* UserStatusButton.swift */; };
+		6F91286F2385DB0000BC348E /* UserStatusLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91286E2385DB0000BC348E /* UserStatusLayout.swift */; };
+		6F9128722385DB3B00BC348E /* NavigationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9128712385DB3B00BC348E /* NavigationLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F0A74242380D13B00CBC134 /* StoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryButton.swift; sourceTree = "<group>"; };
+		6F0A74262380D16500CBC134 /* StoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryImage.swift; sourceTree = "<group>"; };
+		6F0A74282380D18B00CBC134 /* StoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryItem.swift; sourceTree = "<group>"; };
+		6F4B281423806A92005C6D6B /* FaceBookKIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceBookKIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F4B281723806A92005C6D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6F4B281923806A92005C6D6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6F4B281C23806A92005C6D6B /* FaceBookKIT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FaceBookKIT.xcdatamodel; sourceTree = "<group>"; };
+		6F4B281E23806A92005C6D6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F4B282023806A98005C6D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F4B282323806A98005C6D6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F4B282623806A98005C6D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6F4B282823806A98005C6D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F9128672385D58100BC348E /* ListRowSeparator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowSeparator.swift; sourceTree = "<group>"; };
+		6F9128692385D73A00BC348E /* StoriesTray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesTray.swift; sourceTree = "<group>"; };
+		6F91286C2385DAE500BC348E /* UserStatusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusButton.swift; sourceTree = "<group>"; };
+		6F91286E2385DB0000BC348E /* UserStatusLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusLayout.swift; sourceTree = "<group>"; };
+		6F9128712385DB3B00BC348E /* NavigationLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLayout.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F4B281123806A92005C6D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F0A74222380D11500CBC134 /* Stories */ = {
+			isa = PBXGroup;
+			children = (
+				6F0A74242380D13B00CBC134 /* StoryButton.swift */,
+				6F0A74262380D16500CBC134 /* StoryImage.swift */,
+				6F0A74282380D18B00CBC134 /* StoryItem.swift */,
+				6F9128692385D73A00BC348E /* StoriesTray.swift */,
+			);
+			name = Stories;
+			sourceTree = "<group>";
+		};
+		6F4B280B23806A92005C6D6B = {
+			isa = PBXGroup;
+			children = (
+				6F4B281623806A92005C6D6B /* FaceBookKIT */,
+				6F4B281523806A92005C6D6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F4B281523806A92005C6D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B281423806A92005C6D6B /* FaceBookKIT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F4B281623806A92005C6D6B /* FaceBookKIT */ = {
+			isa = PBXGroup;
+			children = (
+				6F9128702385DB2A00BC348E /* Navigation */,
+				6F91286B2385DAC300BC348E /* UserStatus */,
+				6F0A74222380D11500CBC134 /* Stories */,
+				6F4B281723806A92005C6D6B /* AppDelegate.swift */,
+				6F4B281923806A92005C6D6B /* SceneDelegate.swift */,
+				6F4B281E23806A92005C6D6B /* ContentView.swift */,
+				6F4B282023806A98005C6D6B /* Assets.xcassets */,
+				6F4B282523806A98005C6D6B /* LaunchScreen.storyboard */,
+				6F4B282823806A98005C6D6B /* Info.plist */,
+				6F4B281B23806A92005C6D6B /* FaceBookKIT.xcdatamodeld */,
+				6F4B282223806A98005C6D6B /* Preview Content */,
+				6F9128672385D58100BC348E /* ListRowSeparator.swift */,
+			);
+			path = FaceBookKIT;
+			sourceTree = "<group>";
+		};
+		6F4B282223806A98005C6D6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F4B282323806A98005C6D6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F91286B2385DAC300BC348E /* UserStatus */ = {
+			isa = PBXGroup;
+			children = (
+				6F91286C2385DAE500BC348E /* UserStatusButton.swift */,
+				6F91286E2385DB0000BC348E /* UserStatusLayout.swift */,
+			);
+			name = UserStatus;
+			sourceTree = "<group>";
+		};
+		6F9128702385DB2A00BC348E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				6F9128712385DB3B00BC348E /* NavigationLayout.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F4B281323806A92005C6D6B /* FaceBookKIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4B282B23806A98005C6D6B /* Build configuration list for PBXNativeTarget "FaceBookKIT" */;
+			buildPhases = (
+				6F4B281023806A92005C6D6B /* Sources */,
+				6F4B281123806A92005C6D6B /* Frameworks */,
+				6F4B281223806A92005C6D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceBookKIT;
+			productName = FaceBookKIT;
+			productReference = 6F4B281423806A92005C6D6B /* FaceBookKIT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F4B280C23806A92005C6D6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = marev;
+				TargetAttributes = {
+					6F4B281323806A92005C6D6B = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6F4B280F23806A92005C6D6B /* Build configuration list for PBXProject "FaceBookKIT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F4B280B23806A92005C6D6B;
+			productRefGroup = 6F4B281523806A92005C6D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F4B281323806A92005C6D6B /* FaceBookKIT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F4B281223806A92005C6D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4B282723806A98005C6D6B /* LaunchScreen.storyboard in Resources */,
+				6F4B282423806A98005C6D6B /* Preview Assets.xcassets in Resources */,
+				6F4B282123806A98005C6D6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F4B281023806A92005C6D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F91286F2385DB0000BC348E /* UserStatusLayout.swift in Sources */,
+				6F4B281823806A92005C6D6B /* AppDelegate.swift in Sources */,
+				6F0A74292380D18B00CBC134 /* StoryItem.swift in Sources */,
+				6F4B281D23806A92005C6D6B /* FaceBookKIT.xcdatamodeld in Sources */,
+				6F0A74252380D13B00CBC134 /* StoryButton.swift in Sources */,
+				6F91286D2385DAE500BC348E /* UserStatusButton.swift in Sources */,
+				6F0A74272380D16500CBC134 /* StoryImage.swift in Sources */,
+				6F4B281F23806A92005C6D6B /* ContentView.swift in Sources */,
+				6F9128682385D58100BC348E /* ListRowSeparator.swift in Sources */,
+				6F91286A2385D73A00BC348E /* StoriesTray.swift in Sources */,
+				6F4B281A23806A92005C6D6B /* SceneDelegate.swift in Sources */,
+				6F9128722385DB3B00BC348E /* NavigationLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6F4B282523806A98005C6D6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F4B282623806A98005C6D6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6F4B282923806A98005C6D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F4B282A23806A98005C6D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F4B282C23806A98005C6D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FaceBookKIT/Preview Content\"";
+				DEVELOPMENT_TEAM = HK347D956B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FaceBookKIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marev.io.FaceBookKIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F4B282D23806A98005C6D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FaceBookKIT/Preview Content\"";
+				DEVELOPMENT_TEAM = HK347D956B;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FaceBookKIT/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marev.io.FaceBookKIT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F4B280F23806A92005C6D6B /* Build configuration list for PBXProject "FaceBookKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B282923806A98005C6D6B /* Debug */,
+				6F4B282A23806A98005C6D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4B282B23806A98005C6D6B /* Build configuration list for PBXNativeTarget "FaceBookKIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4B282C23806A98005C6D6B /* Debug */,
+				6F4B282D23806A98005C6D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6F4B281B23806A92005C6D6B /* FaceBookKIT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6F4B281C23806A92005C6D6B /* FaceBookKIT.xcdatamodel */,
+			);
+			currentVersion = 6F4B281C23806A92005C6D6B /* FaceBookKIT.xcdatamodel */;
+			path = FaceBookKIT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6F4B280C23806A92005C6D6B /* Project object */;
+}
