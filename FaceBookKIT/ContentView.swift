@@ -48,6 +48,28 @@ struct HomeView: View {
 				bottom: 8,
 				trailing: 0))
 			
+			Section {
+				Posts(profilePictureName: "supercar_blondie2",
+					  profileName: "Перник на три морета",
+					  contentPicture: "profile_post")
+				
+			}.listRowInsets(EdgeInsets(
+				top: 8,
+				leading: 0,
+				bottom: 8,
+				trailing: 0))
+				.buttonStyle(PlainButtonStyle())
+			
+			Section {
+				Posts(profilePictureName: "supercar_blondie2",
+					  profileName: "Перник на три морета",
+					  contentPicture: "pernik_golf")
+			}.listRowInsets(EdgeInsets(
+				top: 8,
+				leading: 0,
+				bottom: 8,
+				trailing: 0))
+			.buttonStyle(PlainButtonStyle())
 		}.listStyle(DefaultListStyle())
 	}
 }

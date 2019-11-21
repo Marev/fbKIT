@@ -12,7 +12,7 @@ struct ListRowSeparator: View {
 	
     var body: some View {
         Divider()
-		.frame(minHeight: 16, idealHeight: 16, maxHeight: 16,
+		.frame(minHeight: 8, idealHeight: 8, maxHeight: 8,
 			   alignment: .leading)
 		.background(Color(.systemGray4))
     }
