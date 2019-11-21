@@ -22,6 +22,11 @@
 		6F91286D2385DAE500BC348E /* UserStatusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91286C2385DAE500BC348E /* UserStatusButton.swift */; };
 		6F91286F2385DB0000BC348E /* UserStatusLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F91286E2385DB0000BC348E /* UserStatusLayout.swift */; };
 		6F9128722385DB3B00BC348E /* NavigationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9128712385DB3B00BC348E /* NavigationLayout.swift */; };
+		6FEFF60C238724DE007FC3D4 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF60B238724DE007FC3D4 /* Posts.swift */; };
+		6FEFF60F238735F3007FC3D4 /* PostProfilePicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF60E238735F3007FC3D4 /* PostProfilePicture.swift */; };
+		6FEFF61123873605007FC3D4 /* PostReactButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF61023873605007FC3D4 /* PostReactButton.swift */; };
+		6FEFF61323873618007FC3D4 /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF61223873618007FC3D4 /* PostHeader.swift */; };
+		6FEFF6152387362C007FC3D4 /* PostBodyContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FEFF6142387362C007FC3D4 /* PostBodyContent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +47,11 @@
 		6F91286C2385DAE500BC348E /* UserStatusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusButton.swift; sourceTree = "<group>"; };
 		6F91286E2385DB0000BC348E /* UserStatusLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatusLayout.swift; sourceTree = "<group>"; };
 		6F9128712385DB3B00BC348E /* NavigationLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLayout.swift; sourceTree = "<group>"; };
+		6FEFF60B238724DE007FC3D4 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		6FEFF60E238735F3007FC3D4 /* PostProfilePicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostProfilePicture.swift; sourceTree = "<group>"; };
+		6FEFF61023873605007FC3D4 /* PostReactButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostReactButton.swift; sourceTree = "<group>"; };
+		6FEFF61223873618007FC3D4 /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
+		6FEFF6142387362C007FC3D4 /* PostBodyContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBodyContent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +95,7 @@
 		6F4B281623806A92005C6D6B /* FaceBookKIT */ = {
 			isa = PBXGroup;
 			children = (
+				6FEFF60D238724E4007FC3D4 /* Posts */,
 				6F9128702385DB2A00BC348E /* Navigation */,
 				6F91286B2385DAC300BC348E /* UserStatus */,
 				6F0A74222380D11500CBC134 /* Stories */,
@@ -124,6 +135,18 @@
 				6F9128712385DB3B00BC348E /* NavigationLayout.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		6FEFF60D238724E4007FC3D4 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				6FEFF60B238724DE007FC3D4 /* Posts.swift */,
+				6FEFF60E238735F3007FC3D4 /* PostProfilePicture.swift */,
+				6FEFF61023873605007FC3D4 /* PostReactButton.swift */,
+				6FEFF61223873618007FC3D4 /* PostHeader.swift */,
+				6FEFF6142387362C007FC3D4 /* PostBodyContent.swift */,
+			);
+			name = Posts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,8 +225,13 @@
 				6F0A74292380D18B00CBC134 /* StoryItem.swift in Sources */,
 				6F4B281D23806A92005C6D6B /* FaceBookKIT.xcdatamodeld in Sources */,
 				6F0A74252380D13B00CBC134 /* StoryButton.swift in Sources */,
+				6FEFF60C238724DE007FC3D4 /* Posts.swift in Sources */,
+				6FEFF6152387362C007FC3D4 /* PostBodyContent.swift in Sources */,
+				6FEFF61123873605007FC3D4 /* PostReactButton.swift in Sources */,
 				6F91286D2385DAE500BC348E /* UserStatusButton.swift in Sources */,
 				6F0A74272380D16500CBC134 /* StoryImage.swift in Sources */,
+				6FEFF60F238735F3007FC3D4 /* PostProfilePicture.swift in Sources */,
+				6FEFF61323873618007FC3D4 /* PostHeader.swift in Sources */,
 				6F4B281F23806A92005C6D6B /* ContentView.swift in Sources */,
 				6F9128682385D58100BC348E /* ListRowSeparator.swift in Sources */,
 				6F91286A2385D73A00BC348E /* StoriesTray.swift in Sources */,
