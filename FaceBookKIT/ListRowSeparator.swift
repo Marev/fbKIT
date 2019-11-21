@@ -11,9 +11,10 @@ import SwiftUI
 struct ListRowSeparator: View {
 	
     var body: some View {
-        Divider()
-		.frame(minHeight: 8, idealHeight: 8, maxHeight: 8,
+        Rectangle()
+		.frame(minHeight: 0, maxHeight: 8,
 			   alignment: .leading)
 		.background(Color(.systemGray4))
+			.foregroundColor(Color(.systemGray4))
     }
 }

@@ -45,7 +45,7 @@ struct HomeView: View {
 			}.listRowInsets(EdgeInsets(
 				top: 8,
 				leading: 0,
-				bottom: 8,
+				bottom: 0,
 				trailing: 0))
 			
 			Section {
@@ -54,9 +54,9 @@ struct HomeView: View {
 					  contentPicture: "profile_post")
 				
 			}.listRowInsets(EdgeInsets(
-				top: 8,
+				top: 0,
 				leading: 0,
-				bottom: 8,
+				bottom: 0,
 				trailing: 0))
 				.buttonStyle(PlainButtonStyle())
 			
@@ -65,9 +65,9 @@ struct HomeView: View {
 					  profileName: "Перник на три морета",
 					  contentPicture: "pernik_golf")
 			}.listRowInsets(EdgeInsets(
-				top: 8,
+				top: 0,
 				leading: 0,
-				bottom: 8,
+				bottom: 0,
 				trailing: 0))
 			.buttonStyle(PlainButtonStyle())
 		}.listStyle(DefaultListStyle())

@@ -24,7 +24,7 @@ struct Posts: View {
 					.padding(.leading, 8)
 				
 				PostsHeader(title: self.profileName, time: "5 hrs")
-			}
+			}.padding(.top, 8)
 			
 			PostBodyContent(contentPicture: self.contentPicture)
 			
